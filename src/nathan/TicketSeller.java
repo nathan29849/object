@@ -9,8 +9,8 @@ public class TicketSeller {
 	}
 
 	public void sellTo(Audience audience) {
-		Ticket ticket = ticketOffice.getTicket();
-		Long fee = audience.buy(ticket);
+		Long fee = audience.buy(ticketOffice.getTicket());
 		ticketOffice.plusAmount(fee);
+//		ticketOffice.sellTicketTo(audience);
 	}
 }

@@ -25,4 +25,9 @@ public class TicketOffice {
 	public void plusAmount(Long amount) {
 		this.amount += amount;
 	}
+
+//	public void sellTicketTo(Audience audience) {
+//		Ticket ticket = getTicket();
+//		plusAmount(audience.buy(ticket));
+//	}
 }
