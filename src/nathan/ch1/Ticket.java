@@ -1,4 +1,4 @@
-package nathan;
+package nathan.ch1;
 
 public class Ticket {
 
